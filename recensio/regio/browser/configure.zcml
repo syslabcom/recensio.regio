@@ -1,0 +1,28 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="recensio.regio">
+
+  <browser:resourceDirectory
+    name="recensio.regio.images"
+    directory="images"
+    layer="recensio.regio.interfaces.IRegioLayer"
+    />
+
+  <browser:resourceDirectory
+    name="recensio.regio.stylesheets"
+    directory="stylesheets"
+    layer="recensio.regio.interfaces.IRegioLayer"
+    />
+
+  <browser:viewlet
+    name="bottom_links"
+    manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+    class="recensio.policy.browser.footer_viewlet.Footer"
+    template="templates/footer.pt"
+    permission="zope2.View"
+    layer="recensio.regio.interfaces.IRegioLayer"
+    />
+
+</configure>

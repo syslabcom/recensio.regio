@@ -1,0 +1,6 @@
+<layers>
+    <layer
+        name="recensio.regio"
+        interface="recensio.regio.interfaces.IRegioLayer"
+        />
+</layers>
