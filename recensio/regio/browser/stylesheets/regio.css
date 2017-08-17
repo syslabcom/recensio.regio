@@ -1,0 +1,26 @@
+* h1,h2,h3,h4,h5,h6 {
+    color: #5c6061;
+}
+body {
+    background: #e9edee;
+    color: #160916;
+}
+#mainContent {
+    background-color: #ffffff;
+}
+#navigation ul {
+    background-color: #d3dcdb;
+}
+.login_links a {
+   background-color:#d3dcdb;
+}
+body.template-homepage-view .box a.one-line,
+body.template-homepage-view .box a.two-lines {
+   background-color:#d3dcdb;
+}
+#kommentare_container .reply {
+	background-color:#d3dcdb;
+}
+dl.portletSearch input.searchField{
+    background-color:#d3dcdb;
+}
