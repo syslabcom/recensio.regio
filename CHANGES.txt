@@ -4,6 +4,8 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
+- Custom footer. Refs #15426
+  [reinhardt]
 - Custom colors. Refs #15426
   [reinhardt]
 - Make sure vocabularies are included. Refs #15448

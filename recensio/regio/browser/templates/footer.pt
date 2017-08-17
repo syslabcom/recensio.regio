@@ -18,19 +18,16 @@
 
       <div>
         <span>
-          <span i18n:translate="message_supported_by">
-            recensio.net ist ein Gemeinschaftsprojekt folgender Institutionen
+          <span i18n:translate="message_regio_supported_by">
+              recensio.regio ist ein im Rahmen des <a href="https://www.bsb-muenchen.de/ueber-uns/projekte/fachinformationsdienst-geschichtswissenschaft/">Fachinformationsdienst Geschichtswissenschaft</a> von der Deutschen Forschungsgemeinschaft gefördertes Projekt der Bayerischen Staatsbibliothek.
           </span>
           </span><br />
           <a href="http://www.bsb-muenchen.de/"
-             ><img tal:attributes="src string:${portal_url}/imgs/logos/bsb_logo.gif" src="imgs/logos/bsb_logo.gif"
+             ><img tal:attributes="src string:${portal_url}/++resource++recensio.regio.images/logos/logo_bsb.png" src="imgs/logos/logo_bsb.png"
              alt="Logo der Bayerischen Staatsbibliothek" /></a>
-          <a href="http://www.uni-koeln.de/"
-             ><img tal:attributes="src string:${portal_url}/imgs/logos/unikoeln-logo.png" src="imgs/logos/unikoeln-logo.png"
-             alt="Logo der Universität Köln" /></a>
-          <a href="http://www.ieg-mainz.de/likecms/index.php"
-             ><img tal:attributes="src string:${portal_url}/imgs/logos/ieg_logo.png" src="imgs/logos/ieg_logo.jpg"
-             alt="Logo des Institus für europäische Geschichte" /></a>
+          <a href="http://www.dfg.de"
+             ><img tal:attributes="src string:${portal_url}/++resource++recensio.regio.images/logos/logo_dfg.png" src="imgs/logos/logo_dfg.png"
+             alt="Deutsche Forschungsgemeinschaft Logo" /></a>
       </div>
 
       <div id="notes">
