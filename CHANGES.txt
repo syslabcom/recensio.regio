@@ -4,6 +4,8 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
+- Blank boxes instead of language codes on home page. Refs #15426
+  [reinhardt]
 - Custom footer. Refs #15426
   [reinhardt]
 - Custom colors. Refs #15426
