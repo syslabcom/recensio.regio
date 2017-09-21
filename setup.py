@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.0.1.dev0'
+version = '1.1.0'
 
 setup(name='recensio.regio',
       version=version,
@@ -9,7 +9,7 @@ setup(name='recensio.regio',
                         open("CHANGES.txt").read()),
       classifiers=[
           "Framework :: Plone",
-          "Programming Language :: Python",
+          "Programming Language :: Python :: 2.7",
           ],
       keywords='web zope plone theme',
       author='Syslab.com GmbH',
