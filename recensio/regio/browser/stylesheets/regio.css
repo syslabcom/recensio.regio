@@ -32,3 +32,6 @@ div#latest_reviews_box ul > a {
 dl.portletSearch input.searchField{
     background-color:#d3dcdb;
 }
+.column_footer span {
+    margin-left: 0;
+}
