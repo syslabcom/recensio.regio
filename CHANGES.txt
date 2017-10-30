@@ -4,7 +4,7 @@ Changelog
 1.1.1 (unreleased)
 ------------------
 
-- Added logo and postit images. Refs #15426
+- Added logo, favicon and postit images. Refs #15426
   [reinhardt]
 - Added custom logo link that points to navigation root. Refs #15816
   [reinhardt]

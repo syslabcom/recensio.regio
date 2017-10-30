@@ -4,6 +4,10 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="recensio.regio">
 
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:jbot directory="template_overrides"
+      layer="recensio.regio.interfaces.IRegioLayer" />
+
   <browser:resourceDirectory
     name="recensio.regio.images"
     directory="images"

@@ -23,6 +23,7 @@ setup(name='recensio.regio',
       install_requires=[
           'recensio.policy',
           'recensio.theme',
+          'z3c.jbot',
           'setuptools',
       ],
       extras_require={
