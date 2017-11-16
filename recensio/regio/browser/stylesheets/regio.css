@@ -18,6 +18,9 @@ body.template-homepage-view .box a.one-line,
 body.template-homepage-view .box a.two-lines {
    background-color:#d3dcdb;
 }
+body.template-homepage-view .portletTALPortlet p {
+   background: #d3dcdb;
+}
 div#latest_reviews_box ul li {
    background: transparent url(++resource++recensio.theme.images/blank_icon.png) no-repeat 0 5px;
    padding: 0 0 0.5em 40px;
