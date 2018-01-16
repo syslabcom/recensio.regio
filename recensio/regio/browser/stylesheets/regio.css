@@ -8,6 +8,9 @@ body {
 #mainContent {
     background-color: #ffffff;
 }
+#social-media-header {
+    margin-top: 32px;
+}
 #navigation ul {
     background-color: #d3dcdb;
 }
