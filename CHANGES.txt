@@ -4,7 +4,7 @@ Changelog
 1.1.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Social media buttons: Removed unnecessary margin. Refs #16289
 
 
 1.1.2 (2018-01-18)

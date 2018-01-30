@@ -8,9 +8,6 @@ body {
 #mainContent {
     background-color: #ffffff;
 }
-#social-media-header {
-    margin-top: 32px;
-}
 #navigation ul {
     background-color: #d3dcdb;
 }
@@ -38,6 +35,7 @@ div#latest_reviews_box ul > a {
 dl.portletSearch input.searchField{
     background-color:#d3dcdb;
 }
+
 .column_footer span {
     margin-left: 0;
 }
