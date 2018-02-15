@@ -5,6 +5,9 @@ Changelog
 ------------------
 
 - Social media buttons: Removed unnecessary margin. Refs #16289
+  [reinhardt]
+- Adjusted background colours. Refs #16175
+  [reinhardt]
 
 
 1.1.2 (2018-01-18)
