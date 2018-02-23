@@ -8,6 +8,8 @@ Changelog
   [reinhardt]
 - Adjusted background colours. Refs #16175
   [reinhardt]
+- Hide login/register links. Refs #16221
+  [reinhardt]
 
 
 1.1.2 (2018-01-18)

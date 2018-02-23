@@ -11,6 +11,10 @@ body {
 #navigation ul {
     background-color: #d3dcdb;
 }
+
+#portal-personaltools {
+    visibility: hidden;
+}
 .login_links a {
    background-color:#d3dcdb;
 }
