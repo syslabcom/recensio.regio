@@ -10,6 +10,8 @@ Changelog
   [reinhardt]
 - Hide login/register links. Refs #16221
   [reinhardt]
+- Homepage View: Override review languages. Refs #16527
+  [reinhardt]
 
 
 1.1.2 (2018-01-18)

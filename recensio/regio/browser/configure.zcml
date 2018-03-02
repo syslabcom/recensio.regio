@@ -20,6 +20,14 @@
     layer="recensio.regio.interfaces.IRegioLayer"
     />
 
+  <browser:page
+    for="Products.ATContentTypes.interfaces.document.IATDocument"
+    name="homepage-view"
+    class=".views.RegioHomepageView"
+    permission="zope2.View"
+    layer="recensio.regio.interfaces.IRegioLayer"
+    />
+
   <browser:viewlet
     name="bottom_links"
     manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
