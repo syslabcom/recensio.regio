@@ -37,4 +37,13 @@
     layer="recensio.regio.interfaces.IRegioLayer"
     />
 
+  <browser:page
+    for="recensio.contenttypes.interfaces.IReview"
+    name="generate-pdf-recension"
+    allowed_interface="recensio.theme.browser.interfaces.IGeneratePdfRecension"
+    class=".views.GeneratePdfRecensionRegio"
+    permission="zope2.View"
+    layer="recensio.regio.interfaces.IRegioLayer"
+    />
+
 </configure>
