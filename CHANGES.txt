@@ -6,6 +6,7 @@ Changelog
 
 - Moved "Datenschutz" link to footer. Refs #17066
 - Adjusted colour of boxes on homepage. Refs #16807
+- Replaced PDF header. Refs #16807
 
 
 1.2.0 (2018-03-05)
