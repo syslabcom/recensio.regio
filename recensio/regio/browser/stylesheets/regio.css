@@ -26,7 +26,7 @@ body.template-homepage-view .portletTALPortlet p,
 #footer,
 #portletDownload,
 li.accordion-item {
-   background-color: #d3dcdb;
+   background: #d3dcdb;
 }
 div#latest_reviews_box ul li {
    background: transparent url(++resource++recensio.theme.images/blank_icon.png) no-repeat 0 5px;
