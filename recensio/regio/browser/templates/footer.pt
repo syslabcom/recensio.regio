@@ -19,7 +19,7 @@
       <div>
         <span>
           <span i18n:translate="message_regio_supported_by">
-              recensio.regio ist ein im Rahmen des <a href="https://www.bsb-muenchen.de/ueber-uns/projekte/fachinformationsdienst-geschichtswissenschaft/">Fachinformationsdienst Geschichtswissenschaft</a> von der Deutschen Forschungsgemeinschaft gefördertes Projekt der Bayerischen Staatsbibliothek.
+              recensio.regio ist ein im Rahmen des <a href="https://beta.historicum.net/home/">Fachinformationsdienst Geschichtswissenschaft</a> von der Deutschen Forschungsgemeinschaft gefördertes Projekt der Bayerischen Staatsbibliothek.
           </span>
           </span><br />
           <a href="http://www.bsb-muenchen.de/"
