@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2.1 (unreleased)
+1.2.1 (2018-05-25)
 ------------------
 
 - Moved "Datenschutz" link to footer. Refs #17066
