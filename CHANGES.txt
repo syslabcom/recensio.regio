@@ -6,6 +6,7 @@ Changelog
 
 - Removed obsolete social media markup from footer. #FLOW-439
 - Make sure navigation is below logo. #FLOW-653
+- Updated footer. #FLOW-505
 
 
 1.2.2 (2018-12-12)
