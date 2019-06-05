@@ -51,6 +51,25 @@ dl.portletSearch input.searchField{
 .column_footer span {
     margin-left: 0;
 }
+#footer {
+    padding-top: 0;
+}
+#footer img {
+    vertical-align: middle;
+    margin-top: 0;
+}
+#footer img#logo-bsb {
+    height: auto;
+    width: 27%;
+}
+#footer img#logo-historicum {
+    height: auto;
+    width: 27%;
+}
+#footer img#logo-dfg {
+    height: auto;
+    width: 41%;
+}
 
 /* Front page */
 
