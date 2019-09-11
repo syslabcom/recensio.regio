@@ -18,6 +18,9 @@ li.accordion-item {
 
 /* Page top */
 
+#navigation {
+    clear: both;
+}
 #navigation ul {
     background-color: #d3dcdb;
 }
