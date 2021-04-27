@@ -1,4 +1,6 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages
+from setuptools import setup
+
 
 version = "1.3.2.dev0"
 
@@ -7,7 +9,10 @@ setup(
     version=version,
     description="Regio customizations for Recensio",
     long_description=(open("README.txt").read() + "\n" + open("CHANGES.txt").read()),
-    classifiers=["Framework :: Plone", "Programming Language :: Python :: 2.7",],
+    classifiers=[
+        "Framework :: Plone",
+        "Programming Language :: Python :: 2.7",
+    ],
     keywords="web zope plone theme",
     author="Syslab.com GmbH",
     author_email="info@syslab.com",
@@ -17,8 +22,17 @@ setup(
     namespace_packages=["recensio"],
     include_package_data=True,
     zip_safe=False,
-    install_requires=["recensio.policy", "recensio.theme", "z3c.jbot", "setuptools",],
-    extras_require={"test": ["plone.app.testing",],},
+    install_requires=[
+        "recensio.policy",
+        "recensio.theme",
+        "z3c.jbot",
+        "setuptools",
+    ],
+    extras_require={
+        "test": [
+            "plone.app.testing",
+        ],
+    },
     entry_points="""
       [z3c.autoinclude.plugin]
       target = plone
