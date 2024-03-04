@@ -1,49 +1,49 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
-    xmlns:plone="http://namespaces.plone.org/plone"
     xmlns:browser="http://namespaces.zope.org/browser"
-    i18n_domain="recensio.regio">
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="recensio.regio"
+    >
 
-  <include package="z3c.jbot" file="meta.zcml" />
-  <browser:jbot directory="template_overrides"
-      layer="recensio.regio.interfaces.IRegioLayer" />
+  <include
+      package="z3c.jbot"
+      file="meta.zcml"
+      />
+  <browser:jbot
+      directory="overrides"
+      layer="recensio.regio.interfaces.IRegioLayer"
+      />
 
   <browser:resourceDirectory
-    name="recensio.regio.images"
-    directory="images"
-    layer="recensio.regio.interfaces.IRegioLayer"
-    />
+      name="recensio.regio.images"
+      directory="images"
+      layer="recensio.regio.interfaces.IRegioLayer"
+      />
 
   <browser:resourceDirectory
-    name="recensio.regio.stylesheets"
-    directory="stylesheets"
-    layer="recensio.regio.interfaces.IRegioLayer"
-    />
+      name="recensio.regio.styles"
+      directory="stylesheets"
+      layer="recensio.regio.interfaces.IRegioLayer"
+      />
+
+  <configure package="recensio.plone.browser">
+    <browser:page
+        name="homepage-view"
+        for="plone.app.contenttypes.interfaces.IDocument"
+        class="recensio.regio.browser.views.RegioHomepageView"
+        template="templates/homepage.pt"
+        permission="zope2.View"
+        layer="recensio.regio.interfaces.IRegioLayer"
+        />
+  </configure>
 
   <browser:page
-    for="Products.ATContentTypes.interfaces.document.IATDocument"
-    name="homepage-view"
-    class=".views.RegioHomepageView"
-    permission="zope2.View"
-    layer="recensio.regio.interfaces.IRegioLayer"
-    />
-
-  <browser:viewlet
-    name="bottom_links"
-    manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-    class="recensio.policy.browser.footer_viewlet.Footer"
-    template="templates/footer.pt"
-    permission="zope2.View"
-    layer="recensio.regio.interfaces.IRegioLayer"
-    />
-
-  <browser:page
-    for="recensio.contenttypes.interfaces.IReview"
-    name="generate-pdf-recension"
-    allowed_interface="recensio.theme.browser.interfaces.IGeneratePdfRecension"
-    class=".views.GeneratePdfRecensionRegio"
-    permission="zope2.View"
-    layer="recensio.regio.interfaces.IRegioLayer"
-    />
+      name="generate-pdf-recension"
+      for="recensio.plone.interfaces.IReview"
+      class=".views.GeneratePdfRecensionRegio"
+      allowed_interface="recensio.plone.browser.pdfgen.IGeneratePdfRecension"
+      permission="zope2.View"
+      layer="recensio.regio.interfaces.IRegioLayer"
+      />
 
 </configure>

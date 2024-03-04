@@ -1,11 +1,12 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:five="http://namespaces.zope.org/five"
-    i18n_domain="recensio.regio">
+    i18n_domain="recensio.regio"
+    >
 
-    <include package=".browser" />
-    <include file="profiles.zcml" />
+  <include package=".browser" />
+  <include file="profiles.zcml" />
 
-    <include package="recensio.theme" />"
+  <include package="recensio.plone" />"
 
 </configure>
