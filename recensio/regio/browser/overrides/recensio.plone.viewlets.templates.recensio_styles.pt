@@ -1,0 +1,10 @@
+<link href="${here/portal_url}/++resource++recensio.theme.styles/main.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+/>
+<link href="${here/portal_url}/++resource++recensio.regio.styles/regio.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+/>

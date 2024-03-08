@@ -1,5 +1,5 @@
-from recensio.theme.browser.homepage import HomepageView
-from recensio.theme.browser.pdfgen import GeneratePdfRecension
+from recensio.plone.browser.homepage import HomepageView
+from recensio.plone.browser.pdfgen import GeneratePdfRecension
 
 
 class GeneratePdfRecensionRegio(GeneratePdfRecension):
@@ -10,4 +10,5 @@ class GeneratePdfRecensionRegio(GeneratePdfRecension):
 
 class RegioHomepageView(HomepageView):
 
+    resource_directory = "++resource++recensio.regio.images"
     review_languages = [u""]
