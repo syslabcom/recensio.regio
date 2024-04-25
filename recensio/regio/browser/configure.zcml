@@ -46,4 +46,12 @@
       layer="recensio.regio.interfaces.IRegioLayer"
       />
 
+  <browser:page
+      name="vocabulary-helper"
+      for="*"
+      class=".views.RegioVocabularyHelper"
+      permission="zope2.View"
+      layer="recensio.regio.interfaces.IRegioLayer"
+      />
+
 </configure>
