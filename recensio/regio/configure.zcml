@@ -4,7 +4,14 @@
     i18n_domain="recensio.regio"
     >
 
+  <include
+      package="collective.vdexvocabulary"
+      file="meta.zcml"
+      />
+  <include package="collective.vdexvocabulary" />
+
   <include package=".browser" />
+  <include package=".vocabularies" />
   <include file="profiles.zcml" />
 
   <include package="recensio.plone" />"

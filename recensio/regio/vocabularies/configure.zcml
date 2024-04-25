@@ -1,0 +1,8 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:vdex="http://namespaces.zope.org/vdex"
+    >
+
+  <vdex:treevocabulary directory="vdex/" />
+
+</configure>
