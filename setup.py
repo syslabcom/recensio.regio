@@ -31,7 +31,7 @@ setup(
         "Tracker": "https://github.com/syslabcom/recensio.regio/issues",
     },
     license="GPL",
-    packages=["vocabularies"] + find_packages(exclude=["ez_setup"]),
+    packages=find_packages(exclude=["ez_setup"]),
     namespace_packages=["recensio"],
     include_package_data=True,
     zip_safe=False,

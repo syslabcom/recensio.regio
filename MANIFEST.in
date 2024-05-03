@@ -1,6 +1,5 @@
 recursive-include recensio *
 recursive-include docs *
-include vocabularies/*.vdex
 include CHANGES.txt
 include README.txt
 global-exclude *pyc
