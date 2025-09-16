@@ -4,7 +4,7 @@ Changelog
 2.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Update trove classifiers to target Plone 6.1 [gyst]
 
 
 2.0.0 (2024-06-10)
