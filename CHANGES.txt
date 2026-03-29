@@ -4,6 +4,8 @@ Changelog
 2.0.1 (unreleased)
 ------------------
 
+- Replace z3c.jbot overrides with layer-specific template registrations.
+
 - Update trove classifiers to target Plone 6.1 [gyst]
 
 
@@ -90,4 +92,3 @@ Changelog
 ------------------
 
 - Initial release
-

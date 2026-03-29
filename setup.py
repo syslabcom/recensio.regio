@@ -37,7 +37,6 @@ setup(
     install_requires=[
         "setuptools",
         "recensio.plone",
-        "z3c.jbot",
     ],
     extras_require={
         "test": [
