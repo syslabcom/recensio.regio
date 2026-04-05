@@ -4,7 +4,11 @@ Changelog
 2.0.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Switch to new style namespace
+  [pilz]
+
+- Add Makefile with defined pypi target
+  [pilz]
 
 
 2.0.3 (2026-03-29)
