@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-version = "2.0.4.dev0"
+version = "2.1.0"
 
 setup(
     name="recensio.regio",
