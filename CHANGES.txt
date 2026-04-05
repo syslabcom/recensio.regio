@@ -4,7 +4,8 @@ Changelog
 2.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Switch to find_namespace_packages
+  [pilz]
 
 
 2.1.0 (2026-04-05)

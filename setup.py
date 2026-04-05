@@ -1,4 +1,4 @@
-from setuptools import find_packages, setup
+from setuptools import find_namespace_packages, setup
 
 version = "2.1.1.dev0"
 
@@ -32,7 +32,7 @@ setup(
         "Tracker": "https://github.com/syslabcom/recensio.regio/issues",
     },
     license="GPL",
-    packages=find_packages(exclude=["ez_setup"]),
+    packages=find_namespace_packages(exclude=["ez_setup"]),
     include_package_data=True,
     zip_safe=False,
     python_requires=">=3.10",
